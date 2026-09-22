@@ -1,0 +1,19 @@
+===BEGIN LAB1 SUBMISSION===
+student_id: 670514009
+timestamp: 2026-09-22T07:15:25Z
+hostname: ubuntu
+---[user: getent passwd]---
+(MISSING user ivan304)
+---[group: getent group]---
+(MISSING group webteam)
+---[user-in-group: id]---
+(cannot id ivan304)
+---[file stat: home file mode/owner]---
+(MISSING file report_3625.txt)
+---[sshd effective config]---
+port 22
+permitrootlogin no
+passwordauthentication no
+---[integrity]---
+sshd_sha256: 3b8b0b582afd1eff3fcbc15ea0933621c6e61665413fd8ef401eece346b6b322
+===END LAB1 SUBMISSION===
